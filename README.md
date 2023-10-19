@@ -48,12 +48,15 @@ It takes user input for a blood type and searches for matching donors in the don
 If a match is found and the blood type is registered, the donor's information is displayed.
 
 main Function
+
 The main function is the entry point of the program.
 It sets up the data file, allocates memory for the donors array, and provides a menu for user interaction.
 Users can choose from various options like registration, login, changing password and contact number, searching for blood types, and logging out.
 
 Code Flow
+
 The code flow is menu-driven. Users select options from a menu, and the corresponding function is executed. The program continues to run until the user chooses to exit.
 
 Conclusion
+
 The provided code is a basic donor management system in C. It allows users to register as donors, log in, make profile updates, search for donors by blood type, and log out. While functional, there are opportunities for improvement in terms of error handling, security, and user experience.
